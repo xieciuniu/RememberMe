@@ -13,6 +13,8 @@ struct ContentView: View {
     // View model
     @StateObject private var viewModel = ViewModel()
     
+    let number = 1
+    
     var body: some View {
         NavigationView {
             List {
